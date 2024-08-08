@@ -9,9 +9,13 @@ path - Path for the HTTP request.
 Using example:
 
 const char ssid[] = "YOUR_SSID";               // Your network SSID (name).
+
 const char pass[] = "YOUR_SSID_PASSWORD";      // Your network password.
+
 const char server[] = "wifitest.adafruit.com"; // Server address for Adafruit test.
+
 const char path[] = "/testwifi/index.html";    // Path for the HTTP request.
+
 
 WiFiWebClient webClient(ssid, password, server, path);
 
