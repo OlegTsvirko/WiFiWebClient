@@ -20,11 +20,13 @@ const char path[] = "/testwifi/index.html";    // Path for the HTTP request.
 WiFiWebClient webClient(ssid, password, server, path);
 
 //Initializes the web client.
+
 void setup() {
     webClient.setupWiFi();
 }
 
 // Continuously reads from server and checks client connection
+
 void loop() {
     webClient.loopWiFi();
 }
